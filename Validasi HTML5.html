@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Tugas Validasi HTML5 </title>
+	</head>
+	<body>
+		<form action="" method="post">
+			<table border=0>
+			<tr>
+				<td>Nama Lengkap :</td>
+				<td> <input type="alphabet" name="nama" placeholder="Masukkan Nama Lengkap Anda"
+				size="30"> </td>
+			</tr>
+			<tr>
+				<td>Username : </td>
+				<td> <input type="text" name="Username" placeholder="Masukkan Username"
+				size="30" required> </td>
+			</tr>
+			<tr>
+				<td>Password: </td>
+				<td> <input type="password" name="Password" placeholder="Masukkan Password"
+				size="30" min="4" required> </td>
+			</tr>
+			<tr>
+				<td>Tanggal Lahir : </td>
+				<td> <input type="date" name="birth" required> </td>
+			</tr>
+			<tr>
+				<td>Email : </td>
+				<td> <input type="email" name="email" placeholder="Masukkan Email Anda"
+				size="30" required> </td>
+			</tr>
+			<tr>
+				<td> Telepon </td>
+				<td> <input type="text" name="telp" placeholder="Masukkan Nomor Telepon Anda"
+				size="30" maxlength="12" required> </td>
+			</tr>
+			<tr>
+				<td> </td>
+				<td> <input type="submit" value="Buat Akun Saya"> </td>
+			</tr>
+			</table>
+		</form>
+			<br><br/><br/>
+			
+							<!--Tugas Studi Kasus-->
+			<h1 strong> Studi Kasus: Validasi Input HTML5</h1>
+		<form action="" method="post">
+			<table border=0>
+			<tr>
+				<td>Nama</td>
+				<td>: <input type="text" name="nama" placeholder="Isikan Nama Anda"
+				size="20" pattern="[A-Za-z ]+"> </td>
+			</tr>
+			<tr>
+				<td>Usia </td>
+				<td>: <input type="number" name="Usia"
+				size="5" min="17" max="30" required > (Usia min 17-30) </td>
+			</tr>
+			<tr>
+				<td>Email </td>
+				<td>: <input type="email" name="email" placeholder="nama_email@host.com"
+				size="20" required> </td>
+			</tr>
+			<tr>
+				<td> Web </td>
+				<td>: <input type="url" name="website" placeholder="https://"
+				size="30" required> </td>
+			</tr>
+			<tr>
+				<td>Password </td>
+				<td>: <input type="password" name="Password" placeholder="Masukkan Password"
+				size="15" required pattern=".{8,}"> </td>
+			</tr>
+			<tr>
+				<td> </td>
+				<td> <input type="submit" value="Buat Akun Saya"> </td>
+			</tr>
+			</table>
+		</form>
+	</body>
+</html>
